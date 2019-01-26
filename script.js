@@ -1,13 +1,13 @@
 //Placeholder
 var textfield=document.getElementById("field");
  textfield.onfocus = function (){
-  if(textfield.value=="Enter your task"){
+  if(textfield.value=="Введите очередную задачу"){
    textfield.value="";
   }
  };
  textfield.onblur = function(){
   if (textfield.value ==""){
-   textfield.value="Enter your task";
+   textfield.value="Введите очередную задачу";
   }
  };
 ///////////////////////////////////
@@ -41,7 +41,7 @@ addButton.onclick = function () {
      div.appendChild(span);
      ////////
      taskContainer.appendChild(div);
-     field.value="Enter your task";///Устанавливаем занчание по умоланию
+     field.value="Введите очередную задачу";///Устанавливаем занчание по умоланию
 
     }//For End
         span.onclick = function () {
